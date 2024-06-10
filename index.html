@@ -7,9 +7,10 @@
 	<meta name="description" content="Nina Carducci, photographe professionnelle à Bordeaux, je réalise vos portraits, photos de mariage, d'évènements ou encore d'entrerpise">
 	<link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css">
 	<link rel="stylesheet" href="./assets/style.css">
-	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.googleapis.com" defer>
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap" rel="stylesheet">
+	
 	<!-- Google Riche Snippets -->
 	<script type="application/ld+json">
 		{
@@ -49,12 +50,19 @@
 		  ]
 		}
 	</script>
+	
 	<!-- Twitter meta tags -->
 	<meta name="twitter:card" content="summary">
+	<meta property="twitter:domain" content="github.com">
+	<meta property="twitter:url" content="https://tons1212.github.io/Nina_Carducci_photographie/">
 	<meta name="twitter:title" content="Nina Carducci: Photographe professionnelle à Bordeaux">
 	<meta name="twitter:description" content="Nina Carducci, photographe professionnelle à Bordeaux, je réalise vos portraits, photos de mariage, d'évènements ou encore d'entrerpise.">
+	<meta name="twitter:image" content="https://tons1212.github.io/Nina_Carducci_photographie/assets/images/nina_11zon.webp">
+	
 	<!-- Open Graph FB -->
 	<meta property="og:title" content="Nina Carducci: Photographe professionnelle à Bordeaux">
+	<meta property="og:type" content="siteweb">
+	<meta property="og:url" content="https://tons1212.github.io/Nina_Carducci_photographie/">
 	<meta property="og:description" content="Nina Carducci, photographe professionnelle à Bordeaux, réalise vos photos de portrait, de mariage, de concert, ou encore d'entreprise.">
 	<meta property="og:image" content="https://tons1212.github.io/Nina_Carducci_photographie/assets/images/nina_11zon.webp">
 </head>
@@ -67,7 +75,7 @@
 			<li><a href="#gallery">Galerie</a></li>
 			<li><a href="#services">Service</a></li>
 			<li><a href="#contact">Contact</a></li>
-			<li><a class="social-link" href="https://www.instagram.com/ninacarducci.photo/?hl=fr" target="_blank"><img src="assets/images/instagram.png" alt="logo Instagram"></a></li>
+			<li><a class="social-link" href="https://www.instagram.com/ninacarducci.photo/?hl=fr" target="_blank"><img src="assets/images/instagram.png" alt="logo Instagram" width="25" height="20"></a></li>
 		</ul>
 	</nav>
 </header>
@@ -91,14 +99,14 @@
 				<picture>
 					<source srcset="./assets/images/slider/nicholas-green-nPz8akkUmDI-unsplash-768.webp" media="(max-width: 768px)">
 					<source srcset="./assets/images/slider/nicholas-green-nPz8akkUmDI-unsplash-1024.webp" media="(max-width: 1024px)">
-					<img src="./assets/images/slider/nicholas-green-nPz8akkUmDI-unsplash.webp" class="d-block w-100" alt="Une foule profite d'un concert">
+					<img loading="lazy" src="./assets/images/slider/nicholas-green-nPz8akkUmDI-unsplash.webp" class="d-block w-100" alt="Une foule profite d'un concert">
 				</picture>
 			</div>
 			<div class="carousel-item">
 				<picture>
 					<source srcset="./assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash-768.webp" media="(max-width: 768px)">
 					<source srcset="./assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash-1024.webp" media="(max-width: 1024px)">
-					<img src="./assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash.webp" class="d-block w-100" alt="Jeunes mariés s'embrassant">
+					<img loading="lazy" src="./assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash.webp" class="d-block w-100" alt="Jeunes mariés s'embrassant">
 				</picture>
 			</div>
 		</div>
@@ -207,7 +215,7 @@
 			</form>
 		</div>
 		<div class="picture right">
-			<img loading="lazy" src="./assets/images/camera_11zon.webp" alt="Viel appareil photo">
+			<img loading="lazy" src="./assets/images/camera_11zon.webp" alt="Viel appareil photo" width="500" height="auto">
 		</div>
 	</div>
 </aside>
